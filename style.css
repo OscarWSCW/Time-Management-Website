@@ -147,6 +147,23 @@
   font-size: 150%;
 }
 
+.Benefits1 {
+  position: absolute;
+  right: 50%;
+  top: 20%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 155%;
+}
+
+.Benefits2 { 
+  position: absolute;
+  right: 55%;
+  width: 40%;
+  text-align: left;
+  top: 27%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 155%;
+}
 
 .image1 img {
   position: absolute;
@@ -163,4 +180,12 @@
   width: 30%;
   height: 40%;
 
+}
+
+.SolutionImage img {
+  position: absolute;
+  right: 10%;
+  top: 35%;
+  width: 40%;
+  height: 50%;
 }
