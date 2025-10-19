@@ -129,6 +129,24 @@
   font-size: 150%;
 }
 
+.Solution1 {
+  position: absolute;
+  right: 50%;
+  top: 20%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 155%;
+}
+
+.Solution2 {
+  position: absolute;
+  right: 55%;
+  width: 40%;
+  text-align: left;
+  top: 27%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 150%;
+}
+
 
 .image1 img {
   position: absolute;
