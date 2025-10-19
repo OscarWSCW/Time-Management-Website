@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Time Management Quiz</title>
+  <link rel="stylesheet" href="quiz.css" />
+  <!-- defer ensures JS runs after the DOM is parsed -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="problem.html">Problem</a>
+    <a href="solution.html">Solution</a>
+    <a href="benefits.html">Benefits</a>
+    <a href="quiz.html">Quiz</a>
+  </nav>
+
+  <!-- Quiz -->
+  <div class="app">
+    <h1>Quiz!!</h1>
+    <div class="quiz">
+      <h2 id="question">Question text</h2>
+      <div id="answer-buttons"></div>
+      <button id="next-btn">Next</button>
+    </div>
+    <p id="debug" style="font-size:12px;color:#888;margin-top:12px;"></p>
+  </div>
+</body>
+</html>
